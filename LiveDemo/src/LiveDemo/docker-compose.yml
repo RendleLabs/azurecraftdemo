@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  livedemo:
+    build:
+      context: ..
+      dockerfile: app/dockerfile
+    ports:
+      - "80:80"
